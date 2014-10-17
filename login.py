@@ -5,7 +5,7 @@ import urllib
 
 def login():
     '''
-    登陆wifi
+    自动登陆wifi
     '''
     temp_url = "http://www.baidu.com"
     pre_request = urllib2.urlopen(temp_url)
